@@ -1,3 +1,6 @@
+#aux
+from aux.Fração import Fração
+
 #Módulos
 from modulos.Laboratórios import Laboratórios
 from modulos.Cliente import Cliente
@@ -8,6 +11,7 @@ from modulos.MedicamentosQuimioterápicos import MedicamentosQuimioterápicos
 from modulos.MedicamentosFitoterápicos import MedicamentosFitoterápicos
 
 #Testes para codificação do programa
+"""
 Cliente.cadastrarCliente('44631113132', 'Caio', '13/09/2002')
 Cliente.buscarCliente('44631113132')
 
@@ -31,6 +35,11 @@ Vendas.realizarVenda('11/11/2023', Cliente.buscarCliente('44631113132'), Medicam
 Vendas.realizarVenda('11/11/2023', Cliente.buscarCliente('44631113132'), Medicamentos.buscarMedicamento('Quimioterapico')[0], 200)
 Vendas.realizarVenda('11/11/2023', Cliente.buscarCliente('44631113132'), Medicamentos.buscarMedicamento('Quimioterapico')[0], 200)
 Vendas.mostrarVendas()
+"""
 
 #Função inicial
-Menu.create()
+#Menu.create()
+
+A = Fração(1, 2)
+B = Fração(1, 3)
+print(A + B)
