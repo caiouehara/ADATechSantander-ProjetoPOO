@@ -1,10 +1,5 @@
-#Injeção de dependências
-
-class ContaCorrente:
-    def __init__(self, saldo):
-        self.saldo = saldo
+import Banco.ContaCorrente as ContaCorrente
 
 class ContaBancária:
     def __init__(self, contaCorrente: type(ContaCorrente)) -> None:
         self.__contaCorrente = contaCorrente
-

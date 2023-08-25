@@ -1,5 +1,5 @@
 #aux
-from aux.Fração import Fração
+from aux.math.Fração import Fração
 
 #Módulos
 from modulos.Laboratórios import Laboratórios
@@ -39,10 +39,3 @@ Vendas.mostrarVendas()
 
 #Função inicial
 #Menu.create()
-
-A = Fração(1, 2)
-B = Fração(1, 3)
-print(A + B)
-print(A - B)
-print(A * B)
-print(A / B)
